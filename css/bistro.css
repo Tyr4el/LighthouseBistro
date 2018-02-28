@@ -3,6 +3,10 @@
     font-size: 13pt;
     font-family: Calibri;
     font-size: 92%;
+    background-image: url(/images/ocean.jpg);
+    box-sizing: border-box;
+    border: solid 3px #FFE4C4;
+    margin-top: 100px;
 }
 
 #light {
