@@ -1,5 +1,6 @@
 .nav-var {
     display: table-cell;
+    padding: 0 1em 0 0;
 }
 
 .main {
@@ -56,7 +57,7 @@ body {
 
 caption {
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -128,10 +129,15 @@ table {
 
 td { 
     border: 1px solid #EAEAEA;
+    text-align: center;
 }
 
 tr:nth-of-type(odd) {
     background: #A9A9A9;
+}
+
+tr td:nth-child(2) {
+    text-align: justify;
 }
 
 th {
