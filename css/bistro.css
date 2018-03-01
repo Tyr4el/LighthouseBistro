@@ -32,14 +32,6 @@
     clear: both;
 }
 
-.menu_offerings {
-    color: #A52A2A;
-    font-family: Calibri;
-    font-size: 1.4em;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 #wrapper {
     margin: 0 auto;
     max-width: 900px;
@@ -69,7 +61,7 @@ footer {
     background-image: url(/images/lighthouselogo1.jpg);
     background-repeat: repeat-x;
     height: 35px;
-    margin: 3em 0;
+    margin: 3em auto;
     border: 1px solid #FFE4C4;
     border-radius: 6px;
     clear: both;
