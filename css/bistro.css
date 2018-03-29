@@ -7,6 +7,10 @@
     display: table-cell;
 }
 
+#mobileNumber {
+    display: none;
+}
+
 #address {
     color: #191970;
     font-size: 13pt;
@@ -99,7 +103,18 @@ nav {
     width: 200px;
 }
 
-nav > a {
+.nav-var > ul {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+.nav-var > ul > li > a {
+    text-decoration: none;
+}
+
+.nav-var > ul > li {
+    margin: 1em 0;
+    list-style: none;
     text-decoration: none;
 }
 
@@ -112,7 +127,7 @@ table {
     border-spacing: 0;
 }
 
-td { 
+td {
     border: 1px solid #EAEAEA;
     text-align: center;
 }
@@ -132,4 +147,188 @@ th {
 
 ul {
     list-style-image: url(/images/marker.gif);
+}
+
+.heading {
+        display: none;
+    }
+    
+    .text {
+        display: none;
+    }
+
+@media screen and (max-width: 64em) {
+    body {
+        margin: 0;
+        /*    background: #FFFFFF; */
+    }
+
+    #number {
+        display: none;
+    }
+
+    #mobileNumber {
+        display: block;
+    }
+
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+    }
+
+    main {
+        margin-left: 0;
+        display: block;
+    }
+
+    .nav-var {
+        display: inline;
+        width: auto;
+        text-align: center;
+    }
+
+    .nav-var > ul {
+        list-style-image: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav-var > ul > li {
+        padding: 0 1em;
+        display: inline;
+    }
+
+    .nav-var > ul > li > a {
+        text-decoration: none;
+    }
+
+
+    #light {
+        margin-bottom: 5px;
+    }
+
+    #address {
+        margin: 1em 0;
+        padding: 0;
+        background-image: none;
+        border: none;
+        height: 5em;
+    }
+    
+    .heading {
+        display: none;
+    }
+    
+    .text {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 37.5em) {
+    #address {
+        margin: 1em 0 2em;
+        padding: 0;
+    }
+
+    #light {
+        display: none;
+    }
+    
+    #number {
+        display: none;
+    }
+
+    #mobileNumber {
+        display: block;
+    }
+
+    header {
+        padding-top: 1em;
+    }
+
+    main {
+        padding: 0.1em 1em;
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .nav-var {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .nav-var > ul > li {
+        display: block;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #FFE4C4;
+    }
+
+    .nav-var > ul > li:first-child {
+        border-top: 1px solid #FFE4C4;
+    }
+
+    .nav-var > ul > li > a {
+        display: block;
+    }
+
+    table {
+        display: block;
+        border: none;
+    }
+    
+    caption {
+        display: none;
+    }
+
+    .type {
+        display: none;
+        border: none;
+        text-align: justify;
+    }
+
+    .description {
+        display: none;
+        border: none;
+        text-align: justify;
+    }
+
+    .price {
+        display: none;
+        border: none;
+        text-align: justify;
+    }
+
+    .image {
+        display: none;
+    }
+
+    tr:nth-of-type(odd) {
+        background: none;
+    }
+
+
+    th {
+        display: none;
+        border: none;
+    }
+    
+    .heading {
+        display: block;
+    }
+    
+    .text {
+        display: block;
+    }
+
+
 }

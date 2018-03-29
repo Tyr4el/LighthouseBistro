@@ -14,18 +14,21 @@
             <h1>The Lighthouse Bistro</h1>
         </header>
         <nav class="nav-var">
-            <a href="index.html">Home</a><br><br>
-            <a href="#">Our Menu</a><br><br>
-            <a href="#">Entertainment Schedule</a><br><br>
-            <a href="#">Reservations</a><br><br>
-
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="#">Entertainment Schedule</a></li>
+                <li><a href="#">Reservations</a></li>
+            </ul>
             <div id="address">
-                The Lighthouse Bistro <br> #27 Lighthouse Road <br> Mackinac City, Michigan 49701 <br><br> 888-555-5555 <br><br>
+                The Lighthouse Bistro <br> #27 Lighthouse Road <br> Mackinac City, Michigan 49701 <br><br><a href="tel:888-555-5555" id="mobileNumber">888-555-5555</a><span id="number">888-555-5555</span>
             </div>
         </nav>
         <main class="main">
             <table>
-                <caption>Some of Our Coffees</caption>
+                <caption>Our Coffee</caption>
+                <h2 class="heading">Our Coffee</h2>
+                <p class="text">Our coffees are well-known throughout the region as bold an flavorful.  We offer many different types of coffees, one of which is sure to satisfy your taste.  Prices start at $2.00 per cup</p>
                 <tr>
                     <th scope="col">Coffee</th>
                     <th scope="col">Description</th>
@@ -33,33 +36,35 @@
                     <th scope="col">Image</th>
                 </tr>
                 <tr>
-                    <td>Just Java</td>
-                    <td>The regular house blend, decaffienated coffee, or the flavor of the day</td>
-                    <td>Endless cup $2.00</td>
-                    <td><img src="/images/coffee1.jpg" alt="Just Java"></td>
+                    <td class="type">Just Java</td>
+                    <td class="description">The regular house blend, decaffienated coffee, or the flavor of the day</td>
+                    <td class="price">Endless cup $2.00</td>
+                    <td class="image"><img src="/images/coffee1.jpg" alt="Just Java"></td>
                 </tr>
                 <tr>
-                    <td>Cafe au Lait</td>
-                    <td>House blended coffee infused into a smooth steamed milk</td>
-                    <td>Single $2.00 &nbsp; Double $3.00</td>
-                    <td><img src="/images/coffee2.jpg" alt="Cafe au Lait"></td>
+                    <td class="type">Cafe au Lait</td>
+                    <td class="description">House blended coffee infused into a smooth steamed milk</td>
+                    <td class="price">Single $2.00 &nbsp; Double $3.00</td>
+                    <td class="image"><img src="/images/coffee2.jpg" alt="Cafe au Lait"></td>
                 </tr>
                 <tr>
-                    <td>Iced Cappuccino</td>
-                    <td>Sweetened espresso blended wtih icy-cold milk and served in a chilled glass</td>
-                    <td>Single $4.75 &nbsp; Double $5.75 Wow! $7.75</td>
-                    <td><img src="/images/coffee3.jpg" alt="Iced Cappuccino"></td>
+                    <td class="type">Iced Cappuccino</td>
+                    <td class="description">Sweetened espresso blended wtih icy-cold milk and served in a chilled glass</td>
+                    <td class="price">Single $4.75 &nbsp; Double $5.75 Wow! $7.75</td>
+                    <td class="image"><img src="/images/coffee3.jpg" alt="Iced Cappuccino"></td>
                 </tr>
                 <tr>
-                    <td>Espresso</td>
-                    <td>Our house blend espresso - the best!</td>
-                    <td>Single $5.00 &nbsp; Double $7.50</td>
-                    <td><img src="/images/espresso1.png" alt="Espresso"></td>
+                    <td class="type">Espresso</td>
+                    <td class="description">Our house blend espresso - the best!</td>
+                    <td class="price">Single $5.00 &nbsp; Double $7.50</td>
+                    <td class="image"><img src="/images/espresso1.png" alt="Espresso"></td>
                 </tr>
             </table>
             <br>
             <table>
-                <caption>A Selection of Our Teas</caption>
+                <caption>Our Tea</caption>
+                <h2 class="heading">Our Tea</h2>
+                <p class="text">Our teas are hand-selected from around the world to bring you a wide variety of possibilities.  We specialize in flavorful afternoon teas as well as a wide assortment of exotic teas.  Stop in and try a cup!  Prices start at $2.00</p>
                 <tr>
                     <th scope="col">Tea</th>
                     <th scope="col">Description</th>
@@ -67,27 +72,29 @@
                     <th scope="col">Image</th>
                 </tr>
                 <tr>
-                    <td>Breakfast Teas</td>
-                    <td>Darjeeling, English Breakfast, Queen Anne, Green tea with lemon</td>
-                    <td>Endless Cup $2.00</td>
-                    <td><img src="/images/tea1.jpg" alt="Breakfast Teas"></td>
+                    <td class="type">Breakfast Teas</td>
+                    <td class="description">Darjeeling, English Breakfast, Queen Anne, Green tea with lemon</td>
+                    <td class="price">Endless Cup $2.00</td>
+                    <td class="image"><img src="/images/tea1.jpg" alt="Breakfast Teas"></td>
                 </tr>
                 <tr>
-                    <td>Afternoon Teas</td>
-                    <td>Lemon, Pure Peppermint, Earl Grey, China Oolong</td>
-                    <td>Endless Cup $3.00</td>
-                    <td><img src="/images/tea2.jpg" alt="Afternoon Teas"></td>
+                    <td class="type">Afternoon Teas</td>
+                    <td class="description">Lemon, Pure Peppermint, Earl Grey, China Oolong</td>
+                    <td class="price">Endless Cup $3.00</td>
+                    <td class="image"><img src="/images/tea2.jpg" alt="Afternoon Teas"></td>
                 </tr>
                 <tr>
-                    <td>Exotic Teas</td>
-                    <td>Orange &amp; Cinnammon Spice, Camomile, Honey &amp; Vanilla, Pomegranate &amp; Raspberry</td>
-                    <td>Single Cup $3.50</td>
-                    <td><img src="/images/tea3.jpg" alt="Exotic Teas"></td>
+                    <td class="type">Exotic Teas</td>
+                    <td class="description">Orange &amp; Cinnammon Spice, Camomile, Honey &amp; Vanilla, Pomegranate &amp; Raspberry</td>
+                    <td class="price">Single Cup $3.50</td>
+                    <td class="image"><img src="/images/tea3.jpg" alt="Exotic Teas"></td>
                 </tr>
             </table>
             <br>
             <table>
-                <caption>Snacks</caption>
+                <caption>Our Snacks</caption>
+                <h2 class="heading">Our Snacks</h2>
+                <p class="text">We offer a wide variety of foods ranging from simple snacks to complete inners. Our specialties are organic salads and fresh seafood. Try our fried clam strips and fish strips. The locals swear these are the best you'll find anywhere. Prices are seasonal, but always a real deal.</p>
                 <tr>
                     <th scope="col">Snack</th>
                     <th scope="col">Description</th>
@@ -95,22 +102,22 @@
                     <th scope="col">Image</th>
                 </tr>
                 <tr>
-                    <td>Bagels and Muffins</td>
-                    <td>Bagels, Plain Muffins, Blueberry Muffins, Chocolate Muffins, and much more</td>
-                    <td>Small $2.50 &nbsp; Large $3.00</td>
-                    <td><img src="/images/muffin1.jpg" alt="Bagels and Muffnis"></td>
+                    <td class="type">Bagels and Muffins</td>
+                    <td class="description">Bagels, Plain Muffins, Blueberry Muffins, Chocolate Muffins, and much more</td>
+                    <td class="price">Small $2.50 &nbsp; Large $3.00</td>
+                    <td class="image"><img src="/images/muffin1.jpg" alt="Bagels and Muffnis"></td>
                 </tr>
                 <tr>
-                    <td>Organic Snacks</td>
-                    <td>Organic chips with sea salt, Organic salads</td>
-                    <td>Prices vary</td>
-                    <td><img src="/images/salad1.jpg" alt="Organic"></td>
+                    <td class="type">Organic Snacks</td>
+                    <td class="description">Organic chips with sea salt, Organic salads</td>
+                    <td class="price">Prices vary</td>
+                    <td class="image"><img src="/images/salad1.jpg" alt="Organic"></td>
                 </tr>
                 <tr>
-                    <td>Fresh Fish</td>
-                    <td>Clam Strips, Fried Fish Strips, Fried Oysters, and many other seasonal selections</td>
-                    <td>Prices vary by season $5.75 - $15.00</td>
-                    <td><img src="/images/clamstrips.png" alt="Fish"></td>
+                    <td class="type">Fresh Fish</td>
+                    <td class="description">Clam Strips, Fried Fish Strips, Fried Oysters, and many other seasonal selections</td>
+                    <td class="price">Prices vary by season $5.75 - $15.00</td>
+                    <td class="image"><img src="/images/clamstrips.png" alt="Fish"></td>
                 </tr>
             </table>
         </main>
