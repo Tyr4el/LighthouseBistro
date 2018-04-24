@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bistro.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Reservations</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>The Lighthouse Bistro</h1>
+        </header>
+        <nav class="nav-var">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="entertainment.html">Entertainment Schedule</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+            </ul>
+            <div id="address">
+                The Lighthouse Bistro <br> #27 Lighthouse Road <br> Mackinac City, Michigan 49701 <br><br><a href="tel:888-555-5555" id="mobileNumber">888-555-5555</a><span id="number">888-555-5555</span> <br><br>
+            </div>
+        </nav>
+        <main class="main">
+            <h3>Reservations at the Lighthouse Bistro</h3>
+            <h4>Contact Us Today To Make Your Dining Reservation!</h4>
+            <p id="required">Required fields are marked with an asterisk *</p>
+            <form action="http://cs.ucf.edu/~markl/bistroformreport.php" method="post">
+                <fieldset>
+                    <label for="firstName">*First Name:
+                        <input type="text" id="firstName" name="myFName">
+                    </label>
+                    <label for="lastName">*Last Name:
+                        <input type="text" id="lastName" name="myLName">
+                    </label>
+                    <label for="email">*Email:
+                        <input type="email" id="email" name="myEmail">
+                    </label>
+                    <label for="tel">Telephone:
+                        <input type="tel" id="tel" name="myPhone">
+                    </label>
+                    <label for="date">Date:
+                        <input type="date" id="date" name="myPhone">
+                    </label>
+                    <label for="time">Time:
+                        <input type="time" id="time" name="myTime">
+                    </label>
+                    <label for="numGuests">Number of Guests:
+                        <input type="number" id="numGuests" name="myGuests">
+                    </label>
+                    <label for="comments">*Comments:
+                        <textarea name="comments" id="comments" rows="2" cols="32" maxlength="64"></textarea>
+                            <span id="charLimit">Message limit 64 characters</span>
+                    </label>
+                    <input type="submit" id="submit">
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2018 The Lighthouse Bistro
+            <br>
+            <a href="mailto:nick@conklin.com">nick@conklin.com</a>
+            <br>
+            <p>Today is: <span id="today"><script src="js/date.js"></script></span></p>
+        </footer>
+    </div>
+    <script src="js/char.js"></script>
+</body>
+
+</html>
